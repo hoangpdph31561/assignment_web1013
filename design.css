@@ -1,0 +1,255 @@
+*{
+    margin: 0 px;
+    padding: 0px;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+.wrapper>.nav>.menu{
+    list-style: none;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    
+}
+.wrapper>.nav.menu>li{
+    margin: 0 5 px;
+}
+.wrapper>.nav>.menu>li>a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 0 20px;
+}
+.wrapper>.nav>.menu>li>a:hover{
+    text-decoration: underline;
+    color: gold;
+    font-weight: bolder;
+}
+.banner{
+    background-image: url('banner.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 155px;
+}
+.wrapper>nav{
+    list-style: none;
+    width: 100%;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.wrapper>nav>.menu2{
+    list-style: none;
+    height: 100%;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.wrapper>nav>.menu2>li{
+    height: 100%;
+    display: inline-block;
+    padding: 10px 30px;
+    
+}
+.wrapper>nav>.menu2>li>a{
+    
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.wrapper>nav>.menu2>li:hover{
+    background-color: orangered;
+    position: relative;
+    box-shadow: inset 0 0 5px gray;
+}
+.wrapper>nav>.menu2>li:hover>.submenu{
+    display: block;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    width: 125px;
+    list-style: none;
+    margin: 10px 0px;
+    background-color: lightgrey;
+    left: 0px;
+}
+.submenu>li{
+    padding: 10px 0px;
+}
+.submenu>li>a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px dashed red;
+    color: white;
+    height: 100%;
+}
+.submenu>li>:hover{
+    background-color: olivedrab;
+}
+.text-control{
+    width: 300px;
+    outline: none;
+    padding: 3px 5px;
+    
+}
+.text-control:focus{
+    background-color: bisque;
+}
+.button-control{
+    padding: 3px 5px;
+    margin-right: 20px;
+    outline: none;
+}
+.button-control:hover{
+    background-color: orangered;
+}
+.button-control:focus{
+    box-shadow: inset 0 0 10px grey;
+    background-color: white;
+}
+article{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px; 
+}
+.box1{
+    width: 30%;
+    padding: 30px;
+    height: 100%;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.box1>img{
+    width: 100%;
+}
+.box1>h3{
+    text-transform: uppercase;
+}
+.box1>a{
+    text-decoration: none;
+    color: orangered;
+}
+.box1>a:hover{
+    color: black;
+}
+.dangky-khoahoc{
+    height: 400px;
+    background-image: url('books-gdf6efdb06_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 40px 0px; 
+    padding: 30px 0px;  
+}
+.dangky-khoahoc>h2{
+    font-size: 60px;
+    color: white;
+}
+.dangky-khoahoc>p{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.dangky-khoahoc>form>.text-control{
+    outline: none;
+    
+    height: 20px;
+}
+.dangky-khoahoc>form>.button-control{
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    color:brown;
+}
+.content{
+    height: 100px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    
+}
+.content>h2{
+    font-size: 30px;
+}
+footer{
+    height: 100px;
+    background-color: navy;
+    margin-top: 50px;
+    padding: 30px;
+    position: relative;
+}
+.tentruong{
+    width: 50%;
+    color: white;
+    float: left;
+}
+.thongtinthem{
+    width: 30%;
+    float: right;
+    color: white;
+}
+.sodotochuccanbo{
+    height: 500px;
+    padding: 20px 30px;
+}
+.sodotochuccanbo>.image{
+    width: 30%;
+    margin-right: 30px;
+    float: left;
+}
+.sodotochuccanbo>.gioithieucanbo>h3{
+    text-align: center;
+}
+.sodotochuccanbo>.gioithieucanbo>p{
+    text-align: justify;
+}
+.form-group{
+    margin: 10px 0px;
+
+}
+.form-control{
+    width: 98%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.form-group label{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.form-control:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px red;
+    border: 1px solid yellow;
+}
+.control-button{
+    padding: 8px 30px;
+    outline: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: orangered;
+    box-shadow: inset 0 0 20px blue;
+}
+.control-button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.control-button:disabled{
+    color: darkgray;
+    box-shadow: inset 0 0 20px gray;
+}
+.anhbannerthuvien{
+    background-image: url('bannerthuvien.png');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
